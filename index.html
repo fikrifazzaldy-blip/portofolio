@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zulfa Fikri Fazzaldy — Portofolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Zulfa Fikri Fazzaldy — ke Beranda">ZULFA.</a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profil</a></li>
+          <li><a href="#skills">Keahlian</a></li>
+          <li><a href="#education">Edukasi</a></li>
+          <li><a href="#portfolio">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-toggle" class="menu-toggle" aria-label="Buka menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero" data-aos="fade-up">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hello">Halo, saya...</p>
+          <h1 class="name">Zulfa Fikri Fazzaldy</h1>
+          <p class="role">Mahasiswa Teknik Informatika, Universitas Komputama</p>
+          <p class="slogan"><span id="slogan" aria-live="polite"></span><span class="cursor">|</span></p>
+          <p class="keywords">intuitif · berdampak · elegan · semangat · kreatif</p>
+
+          <div class="hero-ctas">
+            <a href="#portfolio" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-outline">Kontak</a>
+          </div>
+        </div>
+
+        <div class="hero-card" data-aos="zoom-in">
+          <!-- Placeholder visual card -->
+          <div class="profile-card">
+            <svg width="96" height="96" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="8" r="3.2" fill="var(--accent-primary)"></circle>
+              <path d="M4 20c0-4 4-7 8-7s8 3 8 7" stroke="rgba(70,70,85,0.12)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <h3>Zulfa F. Fazzaldy</h3>
+            <p>Mahasiswa TI • Pembelajar penuh semangat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile" class="section" data-aos="fade-up">
+      <div class="container section-inner">
+        <h2 class="section-title">Tentang</h2>
+        <p class="lead">
+          Saya Zulfa Fikri Fazzaldy, mahasiswa Teknik Informatika angkatan 2022 di Universitas Komputama.
+          Memiliki minat mendalam dalam pemecahan masalah dan pengembangan solusi digital — baik di sisi front-end, back-end, maupun desain UI/UX.
+          Berkomitmen pada pembelajaran berkelanjutan dan mengutamakan pengalaman pengguna yang intuitif serta implementasi teknologi yang dapat memberikan dampak nyata.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section" data-aos="fade-up">
+      <div class="container section-inner">
+        <h2 class="section-title">Keahlian</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="50">
+            <h3>Bahasa Pemrograman</h3>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="skill-bars">
+              <div class="skill">
+                <span>HTML</span>
+                <div class="bar"><span style="width: 95%"></span></div>
+              </div>
+              <div class="skill">
+                <span>CSS</span>
+                <div class="bar"><span style="width: 90%"></span></div>
+              </div>
+              <div class="skill">
+                <span>JavaScript</span>
+                <div class="bar"><span style="width: 80%"></span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>Tools & Frameworks</h3>
+            <ul class="skill-list">
+              <li>React / Vue (dasar)</li>
+              <li>Node.js</li>
+              <li>Bootstrap / Tailwind</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="150">
+            <h3>Desain</h3>
+            <ul class="skill-list">
+              <li>Figma</li>
+              <li>Adobe XD / Sketch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section" data-aos="fade-up">
+      <div class="container section-inner">
+        <h2 class="section-title">Edukasi</h2>
+
+        <div class="edu-card" data-aos="fade-right">
+          <h3>Universitas Komputama</h3>
+          <p class="muted">Teknik Informatika • 2022 — Saat ini (2026)</p>
+          <ul>
+            <li>IPK: (tambahkan jika ada)</li>
+            <li>Aktivitas & Pencapaian: (contoh: organisasi, lomba, dsb.)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section" data-aos="fade-up">
+      <div class="container section-inner">
+        <h2 class="section-title">Proyek</h2>
+
+        <div class="projects-grid">
+          <article class="project-card" data-aos="zoom-in">
+            <h3>TaskFlow — Manajemen Tugas</h3>
+            <p class="project-desc">Aplikasi manajemen tugas responsif untuk tim kecil, fokus pada UX yang sederhana.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>Figma</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm">Lihat Live</a>
+              <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="50">
+            <h3>EduConnect — Platform Pembelajaran</h3>
+            <p class="project-desc">Platform pembelajaran daring dengan modul interaktif dan dashboard pelajar.</p>
+            <div class="tags"><span>Vue</span><span>Express</span><span>Tailwind</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm">Lihat Live</a>
+              <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Portfolio Template — Tema Personal</h3>
+            <p class="project-desc">Tema portfolio modern, ringan, dan mudah disesuaikan untuk developer/desainer.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm">Lihat Live</a>
+              <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" data-aos="fade-up">
+      <div class="container section-inner">
+        <h2 class="section-title">Kontak</h2>
+
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form" novalidate>
+            <label for="name">Nama</label>
+            <input id="name" name="name" type="text" required placeholder="Nama Anda">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="email@contoh.com">
+
+            <label for="subject">Subjek</label>
+            <input id="subject" name="subject" type="text" required placeholder="Subjek">
+
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tulis pesan Anda..."></textarea>
+
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+
+          <aside class="contact-info" data-aos="fade-left">
+            <h3>Mari kita ciptakan sesuatu yang berharga bersama.</h3>
+            <p class="muted">Terbuka untuk kolaborasi, magang, dan proyek freelance.</p>
+
+            <ul class="socials">
+              <li><a href="#" aria-label="LinkedIn Zulfa">LinkedIn</a></li>
+              <li><a href="#" aria-label="GitHub Zulfa">GitHub</a></li>
+              <li><a href="mailto:email@domain.com" aria-label="Email Zulfa">Email</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Zulfa Fikri Fazzaldy — Universitas Komputama</p>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
